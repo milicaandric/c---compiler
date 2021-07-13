@@ -1,0 +1,80 @@
+int a;
+struct Cat {
+    int x;
+    int y;
+    int Cat;
+};
+struct Dog {
+    struct Cat cat1;
+    struct Cat cat2;
+    struct Cat cat3;
+    int bark;
+};
+int a;
+bool a;
+struct Cat a;
+struct a {
+    int test;
+};
+void a(int param1, int param2, bool param1) {
+    int a1;
+    int a1;
+    return;
+}
+struct Cat c1;
+struct Dog d1;
+
+struct Animal z;
+void functionA(){
+    struct Bunny bunny;
+    return;
+}
+struct Hey {
+    struct Hi hi;
+    struct Bye bye;
+    int hello;
+};
+void abc;
+void efg;
+void hij;
+void functionB(){
+    void test;
+    return;
+}
+int functionC(int p1, bool p2) {
+    int res;
+    int Cat;
+    struct Cat kitty;
+    kitty.x = 5;
+    if (p3) {
+        int p3;
+        res = p3*p2;
+    } else {
+        int p4;
+        res = p3 + p4 + p4;
+    }
+    if (p2) {
+        res = res * 2;
+    }
+    x = a - a;
+    x = a + a;
+    x = a * a;
+    x = a / 2;
+    x ++;
+    a --;
+    cout<<a;
+    cin>>a;
+    return res;
+}
+void functionD(){
+    struct Cat c2;
+    struct Dog d2;
+    c1.a = 0;
+    c2.a = 1;
+    d1.cat1.a = 0;
+    d2.doggy3.x = 0;
+    dog3.x = 0;
+    var1 = 10*var2;
+    functionC(var1, var2);
+    return;
+}
