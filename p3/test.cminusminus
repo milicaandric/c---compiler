@@ -1,0 +1,26 @@
+int x;    
+int y;
+
+// there will be no comments in the output
+// the output will be "pretty printed" (newlines and indentation will be used to make the program readable)
+// expressions will be fully parenthesized to reflect the order of evaluation
+
+int test1(bool a, int b) {
+    int c; bool res; a=!a; a=a||false; a=a!=false; c=(b+1*12); c=(c*c*c); c=(c-14); c=(c/5); c++; c--;
+    cin>>var; cout<<"Hey there\n";
+    if(b<=c) {b=50;}
+    if(a==true) {res=false;}
+    else{ res=true;}
+    while(c>0&&c<50) {c++;} while(c<=0) {c=c+10;} while(c>=10) {c=c-5;}
+    repeat(30) {c = c+15;}
+    return c;
+}
+int test2() {
+    int b; int x; int y; b=-1; y=1;
+    if (b == -1) { x = 4+3*5-y; while (c) { y = y*2+x; } } else { x = 0; }
+    return x;
+}
+void main() {
+    test1(true, 15); test2();
+    return;
+}
