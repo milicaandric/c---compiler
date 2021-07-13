@@ -1,4 +1,4 @@
-# c---compiler
+# c-- compiler
 
 1.) P1:
   - P1 Part 1: 15/15
