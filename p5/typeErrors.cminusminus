@@ -1,0 +1,226 @@
+struct Point {
+    int x;
+    int y;
+};
+
+struct Other {
+    struct Point p1;
+    struct Point p2;
+    int abc;
+};
+
+struct Ok { 
+int integer; 
+};
+
+int integer;
+bool boolean;
+struct Ok ok;
+
+struct Point p;
+
+bool bbb;
+struct S { int a; };
+struct S t;
+
+void function_one(int integer, int b){
+    return;
+}
+
+void f(int p1, bool p2) {
+}
+
+// func is a function that has one integer parameter and returns a bool
+bool func(int a) {
+    bool b;
+    return b;
+}
+
+void main() {
+    int aaa;
+    int arg;
+    int integer;
+    bool boolean;
+    cout << function_one;
+    cout << Point;
+
+    // some errors involving illegal operations on functions
+    aaa = f + f;
+    bbb = f == 3;
+    bbb = f > main;
+    bbb = f == f;
+
+    // some errors involving structs 
+    t = 5;
+    t = t;
+    cin >> S;
+    t = true || 3;
+    bbb = S && t.a;
+
+    // error involving return
+    return 10;
+
+    // other type errors 
+    aaa = aaa + (!false);
+    aaa = aaa + "foo";
+    bbb = aaa;
+
+    // don't give too many or too few error messages here 
+    bbb = (aaa + true) && (bbb < true);
+
+    cout << Point + 1; // Point + 1 is an error; the write is OK
+    func("a" * 4); // "a" * 4 is an error; the call is OK
+
+    cout << p;
+    cout << function_one();
+    cin >> function_one;
+    cin >> Point;
+    cin >> p;
+    return;
+}
+
+int function_two() {
+    if (true) {
+        return;
+    }
+    if (true) {
+    } else {
+        return;
+    }
+    while (true) {
+        return;
+    }
+    repeat(3) {
+        return;
+    }
+    return;
+}
+
+void function_three() {
+    if (true) {
+        return 1;
+    }
+    if (true) {
+	return 0;
+    } else {
+        return 1;
+    }
+    while (true) {
+        return 1;
+    }
+    repeat(1) {
+        return 1;
+    }
+    return 1;
+}
+
+void function_four(int a) {
+    if (true) {
+        return a;
+    }
+    if (true) {
+	return a - 1;
+    } else {
+        return a;
+    }
+    while (true) {
+        return a;
+    }
+    repeat(5) {
+        return a;
+    }
+    return a;
+}
+
+int function_five() {
+    if (true) {
+        return true;
+    }
+    if (true) {
+	return false;
+    } else {
+        return true;
+    }
+    while (true) {
+        return true;
+    }
+    repeat(2) {
+        return true;
+    }
+    return true;
+}
+
+bool function_six() {
+    if (true) {
+        return 0;
+    }
+    if (true) {
+	return 5;
+    } else {
+        return 0;
+    }
+    while (true) {
+        return 0;
+    }
+    repeat(4) {
+        return 0;
+    }
+    return 0;
+}
+
+void function_void() {
+    return;
+}
+
+void function_seven() {
+    int a;
+    int aa;
+    int aaa;
+    bool b;
+    bool bb;
+    bool bbb;
+    struct Point point_one;
+    struct Point point_two;
+    a = b + aa;
+    a = a + bb;
+    a = b - aa;
+    a = a - bb;
+    a = b * aa;
+    a = a * bb;
+    a = b / aa;
+    a = a / bb;
+    b++;
+    b--;
+    bb = b > point_one;
+    bb = b < point_one;
+    bb = b <= point_one;
+    bb = b >= point_one;
+    bbb = !a;
+    bbb = !point_two;
+    bbb = point_one && b;
+    bbb = b && a;
+    bbb = point_one || b;
+    bbb = b || a;
+
+    if (a) {
+        aa = 0;
+    }
+    if (aaa) {
+        aa = 0;
+    } else {
+        aa = 1;
+    }
+    while(point_one) {
+
+    }
+    repeat(b) {
+
+    }
+    bbb = a == bb;
+    bbb = a != bb;
+    bbb = function_void() == a;
+    bbb = a == function_void();
+    bbb = a != function_void();
+    bbb = function_void() != a;
+    return;
+}

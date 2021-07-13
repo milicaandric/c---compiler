@@ -1,0 +1,61 @@
+struct Point {
+    int x;
+    int y;
+};
+struct Other {
+    struct Point p1;
+    struct Point p2;
+    int abc;
+};
+struct Ok {
+    int x;
+};
+int variable_a;
+int variable_b;
+bool variable_c;
+struct Point point0;
+struct Other other0;
+
+int a(int a, bool b) {
+    int variable_a;
+    bool variable_c;
+    struct Point point0;
+    return variable_a;
+}
+int b(int n) {
+    if(n > 50){
+        return n;
+    }
+    if (n < 20){
+	return n + 1;
+    }		
+    return b(n + 5);
+}
+int hello(int x, bool b) { 
+    int res;
+    variable_a++;
+    variable_b--;
+    variable_c = variable_b == x;
+    res = variable_a * variable_b;
+    res = variable_a / 8;
+    res = point0.x - variable_b;
+    point0.x = variable_a;
+    if (b) {
+        return x + 2;
+    } 
+    if (!b) {
+	return x + 5;
+  } else {
+        return x - 2;
+    }
+}
+int f(int x, bool b) { }
+void g() {
+    int a;
+    bool b;
+    struct Point p;
+    p.x = a;
+    b = a == 3;
+    f(a + p.y*2, b);
+    g();
+}
